@@ -13,7 +13,7 @@ body{
     font-family: 'Muli', sans-serif;
     overflow-x: hidden;
     margin: 0;
-    width: 100vw;
+   
    
 }
 
@@ -39,7 +39,7 @@ body{
     
 }
 .faq-cont{
-    max-width: 50vw;
+   
     margin: 100px  auto 0;
     
 }
