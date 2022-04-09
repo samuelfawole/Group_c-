@@ -58,8 +58,8 @@ html{
     background-color: transparent;
     position: relative;
     overflow: hidden;
-    transform: translateX(300%);
-    transition: transform 0.5s ease;
+     -webkit-transform: translateX(300%);
+     -webkit-transition:  -webkit-transform 0.5s ease;
 }
 .faq.active::before,
 .faq.active::after {
@@ -78,7 +78,7 @@ html{
 .faq.active::before {
     top: -10px;
     left: -30px;
-    transform: rotateY(180deg)
+     transform: rotateY(180deg)
 }
 
 .faq-toggle{
@@ -128,9 +128,9 @@ html{
 }
 
 .faq:nth-of-type(even) {
-    transform: translateX(-300%);
+     -webkit-transform: translateX(-300%);
 }
 
 .faq.show {
-    transform: translateX(0);
+     -webkit-transform: translateX(0);
 
