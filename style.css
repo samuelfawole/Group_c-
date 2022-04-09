@@ -10,6 +10,7 @@ html{
 }
 
 body{
+    width: 100vw;
     font-family: 'Muli', sans-serif;
     overflow-x: hidden;
     margin: 0;
