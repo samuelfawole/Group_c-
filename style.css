@@ -34,6 +34,7 @@ html{
     background-image: url(img/goldmedal.jpg);
     background-size:cover;
     background-repeat: no-repeat;
+    background-position:center;
     margin: 0;
     text-align: center;
     height: 100vh;
