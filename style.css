@@ -35,12 +35,11 @@ body{
     text-align: center;
     height: 110vh;
     color: whitesmoke;
-    position: relative;
-    
+        
 }
 .faq-cont{
    
-    margin: 100px  auto 0;
+    margin: 100px auto 0 auto;
     
 }
 
