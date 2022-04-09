@@ -58,7 +58,8 @@ html{
     background-color: transparent;
     position: relative;
     overflow: hidden;
-    transition: 0.3s ease;
+    transform: translateX(300%);
+    transition: transform 0.5s ease;
 }
 .faq.active::before,
 .faq.active::after {
@@ -125,4 +126,11 @@ html{
    display: inline-block;
 
 }
+
+.faq:nth-of-type(even) {
+    transform: translateX(-300%);
+}
+
+.faq.show {
+    transform: translateX(0);
 
